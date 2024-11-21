@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+main {
+    height: 20rem;
+    width: 20rem;
+    background-color: blueviolet;
+    border-radius: 2%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.line-with-circle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-right: 15rem;
+}
+
+.line {
+    width: 2px;                       
+    height: 40px;                    
+    background-color: white;          
+}
+.circle {
+    width: 20px;                     
+    height: 20px;
+    background-color: white;          
+    border-radius: 50%;               
+    overflow: hidden;                 
+    display: flex;
+    align-items: center;
+    justify-content: center;              
+}
+.circle img {
+    width: 100%;                      
+    height: 100%;
+    object-fit: cover;                
+    border-radius: 50%;               
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    padding-right: 10rem;
+    color: white;
+}
+.arrow {
+    padding-left: 17rem;
+    position: relative;
+    top: -30px;
+}
+.major {
+  width: 100%;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.434);
+  position: relative;
+  top: -5px;
+  gap: 0.5rem;
+  margin-right: 6rem;
+  }
+  .text-item1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-right: 11rem;
+    color: rgba(255, 255, 255, 0.594);
+    cursor: pointer;
+  }
+  .text-item2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-right: 12rem;
+    color: rgba(255, 255, 255, 0.594);
+    cursor: pointer;
+  }
+  .text-item3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-right: 7.5rem;
+    color: rgba(255, 255, 255, 0.594);
+    cursor: pointer;
+  }
+  .text-item1:hover {
+    color: white;
+  }
+  .text-item2:hover {
+    color: white;
+  }
+  .text-item3:hover {
+    color: white;
+  }
+  .circle2 {
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .first-line {
+    width: 2px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.422);
+    margin-right: 15.4rem;
+  }
+  .second-line {
+    width: 2px;
+    height: 23px;
+    background-color: rgba(255, 255, 255, 0.422);
+    margin-right: 15.4rem;
+  }
+  .circle {
+    width: 17px;                     
+    height: 17px;
+    background-color: white;          
+    border-radius: 50%;               
+    overflow: hidden;                 
+    display: flex;
+    align-items: center;
+    justify-content: center;              
+}
+.circle img {
+    width: 100%;                      
+    height: 100%;
+    object-fit: cover;                
+    border-radius: 50%;               
+}
+.text-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    padding-right: 10rem;
+    color: white;
+}
+.line2 {
+  width: 2px;
+  height: 20px;
+  background-color: white;
+}
